@@ -106,7 +106,7 @@ $ python manage.py runserver
 
 Help others and your life will be made easier 
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
 Made with :heart: by <a href="https://github.com/harrisonhys" target="_blank">Harrison Antonio .H</a>
