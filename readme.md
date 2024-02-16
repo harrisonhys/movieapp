@@ -45,7 +45,8 @@ Building a movie streaming landing page
 
 ## :dart: About ##
 
-This application is part of the "Pensioner Authentication" application. It works by comparing two facial photos and the result is whether the two photos are identical or not. The goal is to reduce overpayments and find out deceased pensioners faster by proving that they are still alive.
+This is a coding test on the recruitment step of Python Backend Develope at the company "Omni App Solutions".
+
 
 This application is built using <a href="https://www.djangoproject.com">Django</a>
 
