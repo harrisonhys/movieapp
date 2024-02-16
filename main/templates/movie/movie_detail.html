@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Listings @ GV Cinema</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container mx-auto px-4 py-8">
+    <header class="flex justify-between items-center mb-8">
+      <h1 class="text-3xl font-bold text-gray-800">Movie Listings @ GV Cinema</h1>
+    </header>
+    
+    <div class="mb-4">
+        <a href="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" >
+            Back
+        </a>
+    </div>
+
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <article class="movie-card p-4 shadow-md rounded-lg">
+        <img
+          src="/assets/images/default-movie.jpg"
+          alt="{{ movie.name }}"
+          class="mb-4"
+        />
+
+        <div class="flex justify-between items-center mb-2">
+          <h2 class="text-xl font-bold">{{ movie.name }}</h2>
+          <span class="text-gray-500">-</span>
+        </div>
+
+        <p class="mb-4">
+            {{ movie.description }}
+        </p>
+
+        <dl class="grid grid-cols-2 gap-2 text-gray-600">
+          <dt>Genre:</dt>
+          <dd>
+            {% for genre in movie.genre %}
+                {{ genre }}
+            {% endfor %}
+          </dd>
+          <dt>Language:</dt>
+          <dd>{{ movie.language }}</dd>
+          <dt>Duration:</dt>
+          <dd>{{ movie.duration }}</dd>
+          <dt>User Rating:</dt>
+          <dd>{{ movie.userRating }}</dd>
+        </dl>
+
+        <div class="text-right mt-4">
+          <h3 class="text-xl font-bold mb-2">UNITED WE STAND DIVIDER WE FALL.</h3>
+          <p class="text-gray-600">28 APRIL</p>
+        </div>
+      </article>
+
+      </main>
+  </div>
+</body>
+</html>
