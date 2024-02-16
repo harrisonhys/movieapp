@@ -45,7 +45,7 @@ Building a movie streaming landing page
 
 ## :dart: About ##
 
-This is a coding test on the recruitment step of Python Backend Develope at the company "Omni App Solutions".
+This is a coding test on the recruitment step Omni App Solutions for Python Backend Developer position
 
 
 This application is built using <a href="https://www.djangoproject.com">Django</a>
