@@ -60,7 +60,7 @@ Please note that our emphasis is on coding logic aspects and UI aesthetics will 
 
 ## :sparkles: Features ##
 
-Integration of deepface library into fastapi project to detect and compare faces from two photos
+Create, Read, Update & Delete Movie. Search Movie by title and description using  javascript (locale, not serverside)
 
 ## :rocket: Technologies ##
 
@@ -68,6 +68,7 @@ The following tools were used in this project:
 
 - [Django](https://www.djangoproject.com/)
 - [SQLite](https://www.sqlite.org/index.html)
+- [Tailwind](https://tailwindui.com/)
 
 ## :white_check_mark: Requirements ##
 
